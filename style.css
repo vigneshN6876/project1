@@ -1,0 +1,34 @@
+.bg{
+    background-color: aliceblue;
+}
+
+ul{
+    text-align: center;
+}
+.dropdown .dropdown-menu{
+    display: none;
+    
+}
+.dropdown:hover > .dropdown-menu ,.dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125rem;  
+}
+
+.dropend{
+    margin-left: .125rem;
+}
+
+@media screen and (min-width:796px) {
+    .dropend:hover > .dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125rem;
+    }
+}
+.dropdown-toggle:hover{
+    color: white;
+}
+.a{
+    color: white;
+}
