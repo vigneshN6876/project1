@@ -48,16 +48,11 @@ ul{
     align-items: center;
     
 }
-
-
 .content{
     color: aliceblue;
     text-align: center;
 
 }
-
- 
-
 .buttonEnqiery{
     padding: 20px;
     color: white;
@@ -71,20 +66,34 @@ padding: 100px;
 background-size: 100% 100%;
 }
 
-.GD{
-    background-image:url("https://w7.pngwing.com/pngs/337/50/png-transparent-mac-book-pro-macbook-air-computer-keyboard-laptop-book-top-view-electronic-device-apple-multimedia.png");
+
+.great-ideas{
+    background-image:url("https://www.shutterstock.com/image-photo/image-statistics-data-processing-over-260nw-2418192641.jpg");
     background-color: aliceblue;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height:  80vh;
+    background-blend-mode: luminosity;
+    min-height: 40vh;
+
+    padding: 100px;
     
+}
+.ideas-content{
+    color: white;
+   
+}
+.Service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
 
 }
-@media (max-width:786px) {
-    .GD{
-        min-height: 70vh;
-       
 
-    }
-  
+.service{
+    margin-top: 50px;
+    
 }
