@@ -97,3 +97,59 @@ background-size: 100% 100%;
     margin-top: 50px;
     
 }
+.YS{
+    background-image: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=pexels-divinetechygirl-1181271.jpg&fm=jpg");
+    background-color: aliceblue;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 30vh;
+    background-blend-mode:multiply;
+    margin-bottom: 50px;
+
+
+}
+.your-story-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.your-story-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FF{
+    border: 1px solid black;
+}
+.FF-BOX{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FF-LB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.footer-items > a{
+    text-decoration: none;
+    color: black;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
